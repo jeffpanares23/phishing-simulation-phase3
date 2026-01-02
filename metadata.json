@@ -1,0 +1,5 @@
+{
+  "name": "Phishing Sim Phase 3: Response & Action",
+  "description": "A high-fidelity cybersecurity simulation focusing on reporting, escalation, and post-suspicion behavior using enterprise-grade UI patterns.",
+  "requestFramePermissions": []
+}
