@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { ASSESSMENTS } from './data';
 import { Assessment, CategoryType, SimulationState } from './types';
-
+import ps1 from '../../assets/ps1.png';
 // --- Sub-components ---
 
 const Header: React.FC = () => (
@@ -141,7 +141,7 @@ export default function App() {
         <div className="text-center mb-6">
           <div className="inline-block p-4 bg-white border border-gray-100 rounded-lg shadow-sm mb-6">
              <img 
-               src="https://api.iconify.design/material-symbols:security.svg?color=%23800000" 
+               src={ps1}
                alt="Company Logo" 
                className="h-16 w-auto opacity-80"
              />
